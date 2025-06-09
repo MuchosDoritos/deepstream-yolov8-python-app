@@ -566,7 +566,7 @@ class SimpleDeepStreamPipeline:
             self.display_queue.get_nowait()
 
 def main():
-    default_input_uri = "file://home/ubuntu/deepstream-yolov8s-python-app/videos/head-pose-face-detection-female-and-male.mp4"
+    default_input_uri = "file:///home/ubuntu/deepstream-yolov8-python-app/videos/people.mp4"
     default_config_file = "config_infer_primary_yolov8.txt"
 
     # Check if command-line arguments are provided
